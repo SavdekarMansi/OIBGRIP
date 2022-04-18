@@ -1,0 +1,173 @@
+.nav{
+			background-color:rgb(255, 255, 255);
+			overflow: hidden;
+		}
+		.nav a{
+			float: left;
+			color: black;
+			text-align: center;
+			padding: 10px 20px;
+			text-decoration: none;
+			font-size: 17px;
+		}
+		.nav a:hover {
+			background-color: #444;
+		}
+		.nav a.active{
+			background-color: #d40;
+			color: white;
+		}
+		#main{
+			text-align: center;
+			background-color: #ccc;
+		}
+		.cover-image{
+			background-image: url('C:/Users/Mansi Savdekar/VS Code Projects/Tribute Page/Images/maharaj2.jpg');
+			min-height: 100%;
+			height: 580px;
+			padding-top: 20px;
+			background-attachment: fixed;
+  			background-position: center;
+  			background-repeat: no-repeat;
+  			background-size: cover;
+		}
+		#title{
+			position: absolute;
+			padding-left: 20px;
+		}
+		#title h1{
+			font-family: Tangerine, Arial;
+			text-shadow: 4px 4px 4px #444;
+			font-size: 90px;
+			color: #e8570d;
+		}
+		#title h4{
+			font-family: Cookie, Dancing Script, Arial;
+			font-size: 35px;
+			text-shadow: 2px 2px 2px #640;
+			color: #dd2420;
+			padding-top: 180px;
+		}
+		.grid-container{
+			display: grid;
+			grid-template-areas:
+			'left left left right right right'
+			'down down down down down down';
+		}
+		.left, .right, .down{
+			height: 320px;
+			margin:5px;
+		}
+		.left{
+			grid-area:left;
+			padding: 30px 40px 10px 40px;
+			background-color: #e92;
+			border-radius: 10px;
+			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		}
+		.right{
+			grid-area:right;
+			padding: 30px 40px 10px 40px;
+			background-color: #28a;
+			border-radius: 10px;
+			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		}
+		.down{
+			height: 720px;
+			grid-area:down;
+			padding: 30px 40px 10px 40px;
+			background-color: #27ad3d;
+			border-radius: 10px;
+			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		}
+		hr.hr-style {
+		    margin-top: 0;
+		    border: 0;
+		    height: 2px;
+		    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgb(90, 90, 90), rgba(0, 0, 0, 0));
+}
+		.left h2, .right h2, .down h2{
+			font-family: Felipa, Serif;
+			font-size: 35px;
+			margin: 0px;
+		}
+		
+		.left p{
+			text-align: justify;
+			font-family: Neucha,Dancing Script;
+			font-size: 20px;
+		}
+		
+		.right table{
+			text-align: justify;
+			font-family: Neucha,Dancing Script;
+			font-size: 18px;
+			padding: 10px;
+		}
+		.right td{
+			padding: 8px;
+		}
+		@media (max-width:  600px){
+			.grid-container{
+				grid-template-areas:
+				'left left left left left left'
+				'right right right right right right';
+			}
+		}
+		.down ul{
+			text-align: justify;
+			font-family: Neucha,Dancing Script;
+			font-size: 20px;
+			padding: 20px;
+			line-height: 1.7;
+		}
+		.down ul strong{
+			background-color: rgba(200, 0, 0, 0.5);
+			padding:3px;
+		}
+		#img-div{
+			margin:10px 0px 20px 0px;
+			width: 100%;
+			height: auto;
+			border-radius: 10px;
+			background-color: #922;
+			padding-top: 20px;
+			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		}
+		#image{
+			width: 100%;
+			height: auto;
+		}
+		#img-caption{
+			font-family: Neucha, Serif;
+			font-size: 25px;
+			padding: 5px;
+		}
+		.more-info p{
+			border: dotted;
+			border-radius: 10px;
+			padding: 10px;
+			font-size: 20px;
+			font-family: Serif;
+			margin: 20px;
+			display: inline-block;
+		}
+		.more-info a{
+			color: black;
+			font-family: Neucha;
+			font-weight: bold;
+			background-color: #e84614;
+			display: inline-block;
+			padding:10px;
+			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+			border-radius: 5px;
+		}
+		
+		.more-info a:hover{
+			background-color: #dd0f0f; 
+		}
+		.footer{
+			font-family: Cookie, Arial;
+			font-size: 30px;
+			text-align: center;
+		}
