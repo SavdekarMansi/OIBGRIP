@@ -1,5 +1,5 @@
 # OIBGRIP
-//////////Oasis Infobyte Web Development and Design Internship(Level 2)//////////                                                                                          
+**//////////Oasis Infobyte Web Development and Design Internship(Level 2)//////////**                                                                                          
 **1. Calculator:**
 
 Glassmorphism Calculator with basic mathematical functionalities using HTML and CSS.
@@ -12,7 +12,7 @@ Tribute Page for Chhatrapati Shivaji Maharaj using HTML and CSS.
 
 Basic To-do Webapp to organize and prioritize your tasks using HTML,CSS and JavaScript.
 
-//////////Oasis Infobyte Java Programming Internship(Task 2)//////////
+**//////////Oasis Infobyte Java Programming Internship(Task 2)//////////**
 
 **Number Guessing Game**
 
@@ -26,7 +26,7 @@ If we succeeded in guessing the number, it will generate a congratulating messag
 
 This project is developed using Java Swing and AWT.
 
-//////////Oasis Infobyte Java Programming Internship(Task 3)//////////
+**//////////Oasis Infobyte Java Programming Internship(Task 3)//////////**
 
 **ATM Interface**
 
