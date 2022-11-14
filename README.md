@@ -38,7 +38,7 @@ This application contains the Following Features-
 
 1. ADD AMOUNT - By choosing this option user can add amount in his account.
 
-2. WITHDRAW AMOUNT - By choosing this option user can withdraw amount from his account if the requested amount is less than the amount in his account.3. BALANCE ENQUIRY- It will show user's balance in his account.
+2. WITHDRAW AMOUNT - By choosing this option user can withdraw amount from his account if the requested amount is less than the amount in his account.
 
 3. BALANCE ENQUIRY- It will show user's balance in his account.
 
